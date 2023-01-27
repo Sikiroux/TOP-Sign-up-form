@@ -1,0 +1,31 @@
+Needs for the project:
+
+Input :
+    -text *2
+    -email
+    -tel
+    -password *2
+
+
+2 big sections:
+    -First one with a background image. 
+    -Second one with a form.
+
+First section: 
+    -A section with a logo on top of it 
+    -A text with an attribution for the background image
+        (Two links one for the photo owner and one for the website wich come from);
+    -A background image
+
+Second section:
+    -Text number 1 
+    -Text number 2
+
+    -form
+        (-Label
+        -input=text *2
+        -input=email input=tel
+        -input=password *2) same section
+        -button=submit
+
+    -text+ link to log in page
