@@ -108,7 +108,7 @@ legend {
     margin-bottom: 10px;
 }
 
-input:invalid {
+input[type="email"]:invalid {
     border-color: red;
 }
 
@@ -135,6 +135,12 @@ input {
     border-radius: 5px;
     border-color: rgb(211, 200, 200);
     border-style: solid;
+}
+
+
+button:active {
+    background-color: #07130a;
+    transition-duration: 300ms;
 }
 
 label{ 
