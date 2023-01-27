@@ -25,7 +25,8 @@ body {
 .pic-link {
     text-align: center;
     color: white;
-    margin-top: 100%;
+    margin-top: 90%;
+    margin-bottom: 10px;
 }
 
 .Logo {
@@ -33,7 +34,16 @@ body {
     background-color: grey;
     opacity: 35%;
     margin-top: 30%;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
 
+.logo-text {
+    opacity: 100%;
+    color: white;
+    position:absolute;
+    margin-top: 7%;
 }
 
 #section-two {
@@ -49,4 +59,34 @@ p {
 .txt1 {
     width: 60%;
     margin-top: 13%;
+}
+
+
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+
+legend {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 17px;
 }
