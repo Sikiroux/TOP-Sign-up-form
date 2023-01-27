@@ -32,7 +32,12 @@ body {
 .pic-link {
     text-align: center;
     color: white;
-    margin-top: 500px;
+    margin-top: 540px;
+}
+
+.pic-link a {
+    text-decoration: none;
+    color: #7891ff;
 }
 
 
@@ -40,19 +45,27 @@ svg.feather {
     height: 100px;
     width: 100px;
     position: relative;
-    top: 47px;
-    right: 20px;
+    right: 40px;
 }
 
 .logo {
     font-family: "crosterian";
     text-align: center;
     justify-self: center;
+    align-self: center;
     color: white;
     font-size: 30px;
+    background-color: rgb(128 128 128 / 45%);
+    width: 80%;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
-    background-color: rgb(128, 128, 128);
+    flex-shrink: 1;
 }
+
 
 
 
@@ -100,8 +113,15 @@ input:invalid {
 }
 
 input:focus {
+    outline: none;
     border-style: solid;
     border-color: blue;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: blue !important;
+    border-style: solid;
 }
 
 input:hover {
