@@ -11,40 +11,50 @@ body {
     height: 100%;
 }
 
+@font-face {
+    font-family: crosterian;
+    src: url(./font/crosterian-webfont.woff);
+}
+
+
 #section-one {
     background-image: url("./background-image.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
-    height: 40vh;
     height: 100%;
     display: flex;
     flex-direction: column;
+    
 }
+
 
 .pic-link {
     text-align: center;
     color: white;
-    margin-top: 90%;
-    margin-bottom: 10px;
+    margin-top: 500px;
 }
 
-.Logo {
-    height: 10%;
-    background-color: grey;
-    opacity: 35%;
-    margin-top: 30%;
+
+svg.feather {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 47px;
+    right: 20px;
+}
+
+.logo {
+    font-family: "crosterian";
+    text-align: center;
+    justify-self: center;
     color: white;
     font-size: 30px;
     padding: 30px;
+    background-color: rgb(128, 128, 128);
 }
 
-.logo-text {
-    opacity: 100%;
-    color: white;
-    position:absolute;
-    margin-top: 7%;
-}
+
 
 #section-two {
     width: 70%;
@@ -82,11 +92,64 @@ legend {
     display: flex;
     flex-direction: column; 
     width: 50%;
+    margin-bottom: 10px;
+}
 
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-style: solid;
+    border-color: blue;
+}
+
+input:hover {
+    background-color: rgb(241, 235, 235);
 }
 
 input {
     width: 70%;
     padding: 5px;
     margin-bottom: 17px;
+    border-radius: 5px;
+    border-color: rgb(211, 200, 200);
+    border-style: solid;
 }
+
+label{ 
+    color: rgb(0, 0, 0);
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.break {
+    box-shadow: 1px 10px 7px rgb(128, 128, 128);
+    padding: 2px;
+    margin-left: -45px;
+}
+
+.login {
+    text-decoration: none;
+    color: #1b4426;
+    font-weight: bold;
+}
+
+.login-line {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 60px;
+    padding: 12px 40px;
+    border-radius: 10px;
+    background-color: #1b4426;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+    border: none;
+}
+
